@@ -33,6 +33,6 @@ On some older Pi's I had issues booting to desktop. So I started with autoboot i
 Desktop is not recommended for these type of displays since some windows are not fully accessible. Not even setting defaults for small displays. Bummer...
 
 ## Lentidão causada pelo card0 e renderD128, utilzar os comando abaixo:
-systemctl mask dev-dri-card0.device
-systemctl mask dev-dri-renderD128.device
-reboot 
+sudo systemctl mask dev-dri-card0.device
+sudo systemctl mask dev-dri-renderD128.devic
+sudo reboot
