@@ -34,5 +34,5 @@ Desktop is not recommended for these type of displays since some windows are not
 
 ## Lentidão causada pelo card0 e renderD128, utilzar os comando abaixo:
 sudo systemctl mask dev-dri-card0.device
-sudo systemctl mask dev-dri-renderD128.devic
+sudo systemctl mask dev-dri-renderD128.device
 sudo reboot
